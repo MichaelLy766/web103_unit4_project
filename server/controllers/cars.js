@@ -1,5 +1,4 @@
 import { pool } from '../config/database.js'
-// import '../config/dotenv.js'
 
 const getCars = async (req, res) => {
     try {
