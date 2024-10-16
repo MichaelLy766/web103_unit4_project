@@ -121,6 +121,7 @@ const CreateCar = () => {
     };
 
     const handleCreateCar = async () => {
+        console.log(isConvertible)
         if (!validateConvertibleOptions(isConvertible, selectedOptions)) {
             alert('Convertible cars must have a soft top roof.');
             return;
